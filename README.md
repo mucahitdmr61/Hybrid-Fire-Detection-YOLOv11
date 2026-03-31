@@ -34,6 +34,10 @@ The distribution of correct vs. incorrect predictions for Fire and Smoke classes
 This chart illustrates which features (Hue, Texture, Aspect Ratio, etc.) the XGBoost model prioritizes when refining YOLO's results:
 ![Feature Importance](oznitelik.png)
 
+### 4. Live Inference Result (YOLO vs. Hybrid)
+The power of the hybrid approach is clearly visible in the image below. While standard YOLOv11 might show lower confidence scores for smaller or occluded fires, our **XGBoost refinement layer** analyzes the HSV color and Laplacian texture features to provide a highly confident (**%99+**) final decision.
+
+![Hybrid Inference Result](inference_result.jpg)
 
 ## 🚀 Usage
 
