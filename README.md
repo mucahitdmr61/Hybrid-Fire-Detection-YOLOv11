@@ -40,11 +40,12 @@ The power of the hybrid approach is clearly visible in the image below. While st
 ![Hybrid Inference Result](inference_result.jpg)
 
 ## 🚀 Usage
-To run the hybrid detection on a sample image, simply use:
-```bash
-python main.py
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone [https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git](https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git)
+
+To run the hybrid detection on a sample image, simply use:
+```bash
+python main.py
