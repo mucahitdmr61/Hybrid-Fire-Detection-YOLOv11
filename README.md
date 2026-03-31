@@ -45,14 +45,14 @@ The power of the hybrid approach is clearly visible in the image below. While st
 First, clone the repository to your local machine:
 ```bash
 git clone [https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git](https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git)
-cd Hybrid-Fire-Detection
+cd Hybrid-Fire-Detection ```
 
 ### 2. Install Dependencies
 Ensure you have Python 3.10+ installed. Then, install the required libraries:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 ### 3. Running the System
 To perform hybrid fire and smoke detection on a sample image, simply run the main.py script. This will load the YOLOv11 and XGBoost models and display a comparison of the results:
 ```bash
-python main.py
+python main.py ```
