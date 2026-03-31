@@ -22,8 +22,8 @@ The hybrid model significantly improves the detection reliability by filtering o
 
 ### 1. Training Metrics (mAP@0.5 & Loss)
 The following charts show the model's convergence and accuracy improvement over 100 epochs:
-![mAP Score](mAP_grafigi.png)
-![Training Loss](loss_grafigi.png)
+![mAP Score](mAP_graph.png)
+![Training Loss](loss_graph.png)
 
 ### 2. Confusion Matrix
 The distribution of correct vs. incorrect predictions for Fire and Smoke classes:
@@ -32,7 +32,7 @@ The distribution of correct vs. incorrect predictions for Fire and Smoke classes
 
 ### 3. Feature Importance (XGBoost)
 This chart illustrates which features (Hue, Texture, Aspect Ratio, etc.) the XGBoost model prioritizes when refining YOLO's results:
-![Feature Importance](oznitelik.png)
+![Feature Importance](feature_importance.png)
 
 ### 4. Live Inference Result (YOLO vs. Hybrid)
 The power of the hybrid approach is clearly visible in the image below. While standard YOLOv11 might show lower confidence scores for smaller or occluded fires, our **XGBoost refinement layer** analyzes the HSV color and Laplacian texture features to provide a highly confident (**%99+**) final decision.
