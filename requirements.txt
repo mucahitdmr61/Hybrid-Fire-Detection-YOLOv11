@@ -1,5 +1,6 @@
 ultralytics
 xgboost
+joblib
 opencv-python
 pandas
 matplotlib
