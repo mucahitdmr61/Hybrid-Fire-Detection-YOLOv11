@@ -41,11 +41,8 @@ The power of the hybrid approach is clearly visible in the image below. While st
 
 ## 🚀 Usage
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git](https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git)
-
-To run the hybrid detection on a sample image, simply use:
+### 1. Installation
+First, clone the repository to your local machine:
 ```bash
-python main.py
+git clone [https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git](https://github.com/mucahitdmr61/Hybrid-Fire-Detection.git)
+cd Hybrid-Fire-Detection
